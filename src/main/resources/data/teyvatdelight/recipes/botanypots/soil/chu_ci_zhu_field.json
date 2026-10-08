@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "teyvatdelight:chu_ci_zhu_field"
+  },
+  "display": {
+    "block": "teyvatdelight:chu_ci_zhu_field"
+  },
+  "categories": [
+    "teyvatdelight_zhu_field"
+  ],
+  "growthModifier": 1.05
+}

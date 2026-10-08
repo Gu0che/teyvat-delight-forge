@@ -1,0 +1,24 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "tag":  "forge:raw_fishes"
+                        },
+                        {
+                            "item":  "teyvatdelight:mint"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "item":  "minecraft:bowl"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "item":  "teyvatdelight:mint_sauce_grilled_fish"
+               }
+}
+
+

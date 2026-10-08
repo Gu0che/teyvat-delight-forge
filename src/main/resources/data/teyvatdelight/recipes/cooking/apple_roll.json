@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "teyvatdelight:butter"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:apple_roll"
+  }
+}

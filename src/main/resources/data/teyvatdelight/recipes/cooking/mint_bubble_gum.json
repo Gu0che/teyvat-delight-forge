@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "teyvatdelight:mint"
+    },
+    {
+      "item": "teyvatdelight:mint"
+    },
+    {
+      "item": "teyvatdelight:valberry"
+    },
+    {
+      "item": "teyvatdelight:valberry"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:paper"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:mint_bubble_gum"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:glaze_lily"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:glaze_lily_seeds"
+  }
+}
+

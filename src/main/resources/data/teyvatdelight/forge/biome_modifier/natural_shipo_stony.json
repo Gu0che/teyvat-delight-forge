@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:stony_shore",
+    "minecraft:stony_peaks"
+  ],
+  "features": "teyvatdelight:patch_natural_shipo",
+  "step": "vegetal_decoration"
+}
+

@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "teyvatdelight:crab_roe"
+    },
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "item": "teyvatdelight:cream"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:flower_pot"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:crab_roe_ham_bake"
+  }
+}

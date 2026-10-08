@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_stratagem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:stratagem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.energy_replenished.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:stratagem"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.energy_replenished.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_stratagem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

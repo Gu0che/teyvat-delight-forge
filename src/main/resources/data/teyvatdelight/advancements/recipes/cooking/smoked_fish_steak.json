@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:salt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "teyvatdelight:cooking/smoked_fish_steak"
+      }
+    },
+    "has_any_ingredient_alternative_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_fishes/salmon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_any_ingredient",
+      "has_any_ingredient_alternative_1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "teyvatdelight:cooking/smoked_fish_steak"
+    ]
+  }
+}

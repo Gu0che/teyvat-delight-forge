@@ -1,0 +1,33 @@
+{
+  "order": 150,
+  "title": "commission.teyvatdelight.the_taste_of_fish.title",
+  "description": "commission.teyvatdelight.the_taste_of_fish.description",
+  "weight": 2,
+  "targets": [
+    {
+      "type": "item",
+      "name": "tag.item.c.foods.safe_raw_fish",
+      "source": {
+        "include": [
+          "#forge:raw_fishes"
+        ],
+        "exclude": [
+          "minecraft:pufferfish"
+        ]
+      },
+      "drawCount": 1,
+      "count": 3,
+      "repeat": false,
+      "selection": "any"
+    }
+  ],
+  "enabled": true,
+  "icon": "",
+  "reward": "",
+  "repeatable": true,
+  "important": false,
+  "urgent": false,
+  "conditions": [],
+  "completionAdvancements": [],
+  "completionRules": []
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "teyvatdelight:main/root",
+  "criteria": {
+    "eat_any_teyvat_dish": {
+      "conditions": {
+        "item": {
+          "tag": "teyvatdelight:teyvat_dishes"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.elemental_taste.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "teyvatdelight:teyvat_fried_egg"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.elemental_taste.title"
+    }
+  },
+  "requirements": [
+    [
+      "eat_any_teyvat_dish"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

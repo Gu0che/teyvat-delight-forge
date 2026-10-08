@@ -1,0 +1,7 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:warped_forest",
+  "features": "teyvatdelight:patch_wild_grainfruit_common",
+  "step": "vegetal_decoration"
+}
+

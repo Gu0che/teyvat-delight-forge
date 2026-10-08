@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_outriders_champion_steak": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:outriders_champion_steak"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.bunny_baron_go.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:outriders_champion_steak"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.bunny_baron_go.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_outriders_champion_steak"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

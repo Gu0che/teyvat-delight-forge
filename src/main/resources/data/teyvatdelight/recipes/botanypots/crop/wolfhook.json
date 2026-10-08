@@ -1,0 +1,41 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:wolfhook"
+  },
+  "categories": [
+    "teyvatdelight_jade_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:wolfhook_crop"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "teyvatdelight:wolfhook",
+        "count": 2
+      }
+    },
+    {
+      "chance": 0.5,
+      "output": {
+        "item": "teyvatdelight:wolfhook"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:wolfhook"
+      }
+    }
+  ]
+}

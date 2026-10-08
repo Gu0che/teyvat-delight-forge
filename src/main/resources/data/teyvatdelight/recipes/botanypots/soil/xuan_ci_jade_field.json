@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:soil",
+  "input": {
+    "item": "teyvatdelight:xuan_ci_jade_field"
+  },
+  "display": {
+    "block": "teyvatdelight:xuan_ci_jade_field"
+  },
+  "categories": [
+    "teyvatdelight_jade_field"
+  ],
+  "growthModifier": 1.05
+}

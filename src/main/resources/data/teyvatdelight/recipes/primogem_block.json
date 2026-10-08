@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "teyvatdelight:primogem"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:primogem_block"
+  }
+}
+

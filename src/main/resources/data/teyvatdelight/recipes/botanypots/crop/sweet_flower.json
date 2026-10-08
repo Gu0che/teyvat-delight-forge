@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:sweet_flower_seeds"
+  },
+  "categories": [
+    "teyvatdelight_jade_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:sweet_flower_crop"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "teyvatdelight:sweet_flower"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:sweet_flower_seeds"
+      }
+    }
+  ]
+}

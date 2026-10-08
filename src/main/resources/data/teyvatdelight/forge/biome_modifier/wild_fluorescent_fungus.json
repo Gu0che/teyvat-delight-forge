@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "features": "teyvatdelight:patch_wild_fluorescent_fungus",
+  "step": "vegetal_decoration"
+}
+

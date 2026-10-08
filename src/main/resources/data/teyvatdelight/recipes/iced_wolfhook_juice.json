@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:wolfhook"
+    },
+    {
+      "item": "teyvatdelight:wolfhook"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:iced_wolfhook_juice"
+  }
+}

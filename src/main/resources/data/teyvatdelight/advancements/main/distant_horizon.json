@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_satiety_gel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:satiety_gel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.distant_horizon.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:satiety_gel"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.distant_horizon.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_satiety_gel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

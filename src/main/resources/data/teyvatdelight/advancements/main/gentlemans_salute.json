@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_long_night_flame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:long_night_flame"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.gentlemans_salute.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:long_night_flame"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.gentlemans_salute.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_long_night_flame"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

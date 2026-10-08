@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "teyvatdelight:grainfruit"
+    },
+    {
+      "item": "teyvatdelight:jinxin_flower"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:paper"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:grainfruit_cup"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:grainfruit"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:grainfruit_seeds"
+  }
+}
+

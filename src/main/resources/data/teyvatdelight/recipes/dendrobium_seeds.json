@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:dendrobium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:dendrobium_seeds"
+  }
+}
+

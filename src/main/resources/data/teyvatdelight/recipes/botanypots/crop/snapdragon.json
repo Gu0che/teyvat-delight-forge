@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:snapdragon_seeds"
+  },
+  "categories": [
+    "teyvatdelight_zhu_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:snapdragon_crop"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "teyvatdelight:snapdragon"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:snapdragon_seeds"
+      }
+    }
+  ]
+}

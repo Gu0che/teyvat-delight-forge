@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:satisfying_salad"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:valberry_seeds"
+  },
+  "categories": [
+    "teyvatdelight_jade_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:valberry_crop"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "teyvatdelight:valberry",
+        "count": 4
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:valberry_seeds"
+      }
+    }
+  ]
+}

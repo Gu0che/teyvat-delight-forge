@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:mint"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "teyvatdelight:cooking/mint_sauce_grilled_fish"
+      }
+    },
+    "has_any_ingredient_alternative_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_fishes"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_any_ingredient",
+      "has_any_ingredient_alternative_1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "teyvatdelight:cooking/mint_sauce_grilled_fish"
+    ]
+  }
+}

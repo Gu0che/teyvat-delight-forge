@@ -1,0 +1,71 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+### 提瓦特乐事（Forge 1.20.1 线）：本地工作区内容（不进版本控制）###
+
+# 第三方 mod 的 jar：版权原因不能公开分发，体积也大（本目录曾达 101 MB）。
+# 构建依赖通过公共 Maven 获取，见 README 的「从源码构建」。
+/libs/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 发布归档：历史 jar 全部保留在本地，不进仓库
+/outputs/
+
+# 本地放置的 Gradle 发行版与安装包（gradle-8.8/ 约 146 MB、gradle-8.8-bin.zip 约 132 MB）
+/tools/gradle-*/
+*.zip
+
+# 开发日志
+/logs/
+
+# Forge MDK 自带的模板文件：不是本模组的许可与说明，不要冒充项目许可
+/LICENSE.txt
+/CREDITS.txt
+/README.txt
+/changelog.txt
+
+# 从依赖模组解压出来的本地参考资料（与 libs 内 jar 逐字节一致，构建不引用）
+# 只忽略根目录的 /data/；src/main/resources/data/ 里的配方、标签、掉落表必须入库
+/data/
+
+# 抓取的参考资料与临时文件
+*.htm
+*.html
+*.pdf
+*.7z
+
+# 临时修复便笺仅留本地；正式记录使用 docs/ 与 CHANGELOG
+/修复.txt
+
+# 内部开发资料与验证工具仅留本地，源码库只保留模组实现及构建所需文件
+/AGENTS.md
+/docs/
+/scripts/
+/tools/
+/src/gameTest/
+/食材数值.txt
+/CHANGELOG*.md

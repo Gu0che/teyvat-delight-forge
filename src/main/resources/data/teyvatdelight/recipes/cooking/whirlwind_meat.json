@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:raw_meat"
+    },
+    {
+      "item": "farmersdelight:bacon"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:whirlwind_meat"
+  }
+}

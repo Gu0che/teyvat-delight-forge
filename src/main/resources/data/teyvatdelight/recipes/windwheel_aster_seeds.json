@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:windwheel_aster"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:windwheel_aster_seeds"
+  }
+}
+

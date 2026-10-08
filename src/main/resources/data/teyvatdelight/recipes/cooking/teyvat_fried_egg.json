@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:paper"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:teyvat_fried_egg"
+  }
+}
+
+

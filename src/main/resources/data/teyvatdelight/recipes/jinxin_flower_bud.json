@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:jinxin_flower"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:jinxin_flower_bud"
+  }
+}
+

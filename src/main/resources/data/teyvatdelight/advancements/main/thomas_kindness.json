@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_warmth": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:warmth"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.thomas_kindness.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:warmth"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.thomas_kindness.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_warmth"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

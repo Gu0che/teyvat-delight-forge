@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:windwheel_aster_seeds"
+  },
+  "categories": [
+    "teyvatdelight_zhi_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:windwheel_aster_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "teyvatdelight:windwheel_aster"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:windwheel_aster_seeds"
+      }
+    }
+  ]
+}

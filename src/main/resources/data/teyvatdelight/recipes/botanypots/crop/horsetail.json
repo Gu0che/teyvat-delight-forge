@@ -1,0 +1,216 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:horsetail_seeds"
+  },
+  "categories": [
+    "teyvatdelight_zhu_field"
+  ],
+  "growthTicks": 1200,
+  "display": [
+    {
+      "type": "botanypots:transitional",
+      "phases": [
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "1"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "2"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "3"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "3"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "3"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_bottom",
+          "properties": {
+            "age": "3"
+          },
+          "offset": [
+            0,
+            -0.2,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "botanypots:transitional",
+      "phases": [
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ],
+          "scale": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "0"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "1"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ]
+        },
+        {
+          "block": "teyvatdelight:horsetail_top",
+          "properties": {
+            "age": "2"
+          },
+          "offset": [
+            0,
+            -0.146875,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "teyvatdelight:horsetail"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:horsetail_seeds"
+      }
+    }
+  ]
+}

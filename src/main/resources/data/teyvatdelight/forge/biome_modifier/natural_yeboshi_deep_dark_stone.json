@@ -1,0 +1,9 @@
+{
+    "type":  "forge:add_features",
+    "biomes":  [
+                   "minecraft:deep_dark"
+               ],
+    "features":  "teyvatdelight:patch_natural_yeboshi_underground",
+    "step":  "vegetal_decoration"
+}
+

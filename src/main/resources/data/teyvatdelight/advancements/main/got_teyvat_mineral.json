@@ -1,0 +1,36 @@
+{
+  "parent": "teyvatdelight:main/root",
+  "criteria": {
+    "has_teyvat_mineral": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "teyvatdelight:teyvat_mineral_items"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.got_teyvat_mineral.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "teyvatdelight:shipo"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.got_teyvat_mineral.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_teyvat_mineral"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

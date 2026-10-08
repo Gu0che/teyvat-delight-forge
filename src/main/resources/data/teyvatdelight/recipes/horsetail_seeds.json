@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:horsetail"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:horsetail_seeds"
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:pink_windblume"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "teyvatdelight:windblume",
+      "count": 1
+    },
+    {
+      "item": "minecraft:pink_dye",
+      "count": 1,
+      "chance": 0.4
+    }
+  ]
+}

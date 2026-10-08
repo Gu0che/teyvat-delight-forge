@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:mint"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:mint_seeds"
+  }
+}
+

@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:cecilia_seeds"
+  },
+  "categories": [
+    "teyvatdelight_zhi_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:cecilia_crop"
+  },
+  "drops": [
+    {
+      "chance": 1,
+      "output": {
+        "item": "teyvatdelight:cecilia"
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:cecilia_seeds"
+      }
+    }
+  ]
+}

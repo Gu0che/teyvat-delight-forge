@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:jueyun_chili"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:jueyun_chili_seeds"
+  }
+}
+

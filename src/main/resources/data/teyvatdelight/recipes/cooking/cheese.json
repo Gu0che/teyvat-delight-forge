@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    { "tag": "forge:milk" },
+    { "tag": "forge:milk" },
+    { "tag": "forge:mushrooms" }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:cheese"
+  }
+}

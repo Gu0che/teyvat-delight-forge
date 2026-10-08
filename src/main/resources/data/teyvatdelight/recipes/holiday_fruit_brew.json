@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:wolfhook"
+    },
+    {
+      "item": "teyvatdelight:sunsettia"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:holiday_fruit_brew"
+  }
+}

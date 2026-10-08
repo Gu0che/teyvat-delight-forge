@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "teyvatdelight:raspberry"
+    },
+    {
+      "item": "teyvatdelight:mint"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:berry_mint_drink"
+  }
+}

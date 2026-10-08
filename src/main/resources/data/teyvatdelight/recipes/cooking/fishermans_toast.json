@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:paper"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:fishermans_toast"
+  }
+}

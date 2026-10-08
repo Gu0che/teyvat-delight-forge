@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/root",
+  "criteria": {
+    "has_mora": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:mora"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.got_mora.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "teyvatdelight:mora"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.got_mora.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_mora"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

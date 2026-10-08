@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "MPM",
+    "PWP",
+    "MPM"
+  ],
+  "key": {
+    "M": {
+      "item": "teyvatdelight:mora"
+    },
+    "P": {
+      "item": "teyvatdelight:primogem"
+    },
+    "W": {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:holy_water"
+  }
+}

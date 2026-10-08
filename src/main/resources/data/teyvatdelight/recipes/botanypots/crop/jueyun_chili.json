@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "teyvatdelight:jueyun_chili_seeds"
+  },
+  "categories": [
+    "teyvatdelight_jade_field"
+  ],
+  "growthTicks": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "teyvatdelight:jueyun_chili_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.0,
+      "output": {
+        "item": "teyvatdelight:jueyun_chili",
+        "count": 3
+      }
+    },
+    {
+      "chance": 0.05,
+      "output": {
+        "item": "teyvatdelight:jueyun_chili_seeds"
+      }
+    }
+  ]
+}

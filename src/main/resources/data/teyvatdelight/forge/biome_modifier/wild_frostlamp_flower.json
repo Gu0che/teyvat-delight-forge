@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:beach"
+  ],
+  "features": "teyvatdelight:patch_wild_frostlamp_flower",
+  "step": "vegetal_decoration"
+}
+

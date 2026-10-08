@@ -1,0 +1,24 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "tag":  "forge:raw_pork"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "item":  "minecraft:bowl"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "item":  "teyvatdelight:honey_char_siu"
+               }
+}
+
+

@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "forge:raw_meat"
+    },
+    {
+      "tag": "forge:raw_meat"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "teyvatdelight:valberry"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:magical_meat_sauce_pasta"
+  }
+}

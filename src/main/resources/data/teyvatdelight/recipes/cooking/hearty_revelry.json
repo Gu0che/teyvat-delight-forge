@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "teyvatdelight:smoked_fowl"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    },
+    {
+      "item": "teyvatdelight:wolfhook"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "item": "minecraft:bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "item": "teyvatdelight:hearty_revelry"
+  }
+}

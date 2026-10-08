@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/got_mora",
+  "criteria": {
+    "has_primogem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:primogem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.got_primogem.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "teyvatdelight:primogem"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.got_primogem.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_primogem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

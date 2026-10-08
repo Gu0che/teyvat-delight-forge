@@ -1,0 +1,38 @@
+{
+  "parent": "teyvatdelight:main/heartbeat_memory",
+  "criteria": {
+    "has_flaming_stir_fried_filet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "teyvatdelight:flaming_stir_fried_filet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.teyvatdelight.slay_haishan_too.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "teyvatdelight:flaming_stir_fried_filet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.teyvatdelight.slay_haishan_too.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_flaming_stir_fried_filet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
