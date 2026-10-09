@@ -17,7 +17,7 @@ import net.minecraftforge.network.simple.SimpleChannel;
 public final class KatheryneNetwork {
   private static final SimpleChannel CHANNEL =
       NetworkRegistry.newSimpleChannel(
-          new ResourceLocation("teyvatdelight", "katheryne"), () -> "15", "15"::equals, "15"::equals);
+          new ResourceLocation("teyvatdelight", "katheryne"), () -> "16", "16"::equals, "16"::equals);
 
   private KatheryneNetwork() {}
 
@@ -205,6 +205,8 @@ public final class KatheryneNetwork {
     for (var header : view.headers()) {
       buf.writeUtf(header.id(), 128);
       buf.writeUtf(header.title(), 256);
+      buf.writeBoolean(header.locked());
+      buf.writeComponent(header.lockReason());
     }
     buf.writeUtf(view.active(), 128);
     buf.writeVarInt(view.seconds());
@@ -214,6 +216,8 @@ public final class KatheryneNetwork {
       buf.writeUtf(row.id(), 128);
       buf.writeUtf(row.name(), 256);
       buf.writeVarInt(row.remaining());
+      buf.writeBoolean(row.locked());
+      buf.writeComponent(row.lockReason());
       writeAmounts(buf, row.outputs());
       writeAmounts(buf, row.prices());
     }
@@ -254,7 +258,7 @@ public final class KatheryneNetwork {
     for (int i = 0; i < count; i++) {
       String id = buf.readUtf(128), title = buf.readUtf(256);
       if (id.isEmpty() || !ids.add(id)) throw new IllegalArgumentException("Invalid shop ID");
-      headers.add(new KatheryneSnapshot.StoreHeader(id, title));
+      headers.add(new KatheryneSnapshot.StoreHeader(id, title, buf.readBoolean(), buf.readComponent()));
     }
     String active = buf.readUtf(128);
     int seconds = buf.readVarInt();
@@ -267,10 +271,16 @@ public final class KatheryneNetwork {
       if (id.isEmpty() || !ids.add(id) || remaining < -1 || remaining > 1000000)
         throw new IllegalArgumentException("Invalid store row");
       rows.add(
-          new KatheryneSnapshot.StoreRow(id, name, readAmounts(buf), readAmounts(buf), remaining));
+          readStoreRow(buf, id, name, remaining));
     }
     return new KatheryneSnapshot.StoreView(
         List.copyOf(headers), active, List.copyOf(rows), seconds, replace);
+  }
+
+  private static KatheryneSnapshot.StoreRow readStoreRow(FriendlyByteBuf buf, String id, String name, int remaining) {
+    boolean locked = buf.readBoolean();
+    var reason = buf.readComponent();
+    return new KatheryneSnapshot.StoreRow(id, name, readAmounts(buf), readAmounts(buf), remaining, locked, reason);
   }
 
   private static int boundedSize(FriendlyByteBuf buf) {
