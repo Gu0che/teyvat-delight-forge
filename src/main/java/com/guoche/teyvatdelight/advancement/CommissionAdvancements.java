@@ -30,11 +30,15 @@ public final class CommissionAdvancements {
   }
 
   public static void flushVisibility() {
+    // Integrated clients share statics with the server; never touch its queue off-thread.
+    var server = net.minecraftforge.server.ServerLifecycleHooks.getCurrentServer();
+    if (server == null || !server.isSameThread()) return;
     var queued = java.util.List.copyOf(pendingVisibility);
     pendingVisibility.clear();
     for (var player : queued) {
+      if (player.server != server || player.connection == null) continue;
       var packet = visibilityPacket(player);
-      if (packet == null || player.connection == null) continue;
+      if (packet == null) continue;
       // Send after vanilla visibility changes, without mutating shared advancement definitions.
       player.getAdvancements().flushDirty(player);
       player.connection.send(packet);

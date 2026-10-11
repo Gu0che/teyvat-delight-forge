@@ -40,7 +40,6 @@ public final class CommissionEvents {
   @SubscribeEvent
   public static void player(TickEvent.PlayerTickEvent event) {
     if (event.phase != TickEvent.Phase.END) return;
-    com.guoche.teyvatdelight.advancement.CommissionAdvancements.flushVisibility();
     if (!(event.player instanceof ServerPlayer player)
         || player instanceof FakePlayer) return;
     KatheryneData data = KatheryneData.get(player.server);
@@ -55,6 +54,7 @@ public final class CommissionEvents {
   @SubscribeEvent
   public static void tick(TickEvent.ServerTickEvent event) {
     if (event.phase != TickEvent.Phase.END) return;
+    com.guoche.teyvatdelight.advancement.CommissionAdvancements.flushVisibility();
     deaths.removeIf(
         d -> {
           if (event.getServer().getTickCount() <= d.tick()) return false;
